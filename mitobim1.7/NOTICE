@@ -1,0 +1,2 @@
+MITObim 1.7 was slightly altered from the default script provided by the original author.
+Mainly a -k flag was added to do the mapping assembly with a different than default k-mer.

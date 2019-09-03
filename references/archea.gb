@@ -1,0 +1,46 @@
+LOCUS       NC_009515            1853160 bp    DNA     circular CON 10-JUN-2013
+DEFINITION  Methanobrevibacter smithii ATCC 35061 chromosome, complete genome.
+ACCESSION   NC_009515
+VERSION     NC_009515.1  GI:148642060
+DBLINK      Project: 58827
+            BioProject: PRJNA58827
+KEYWORDS    RefSeq.
+SOURCE      Methanobrevibacter smithii ATCC 35061
+  ORGANISM  Methanobrevibacter smithii ATCC 35061
+            Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales;
+            Methanobacteriaceae; Methanobrevibacter.
+REFERENCE   1  (bases 1 to 1853160)
+  AUTHORS   Samuel,B.S., Hansen,E.E., Manchester,J.K., Coutinho,P.M.,
+            Henrissat,B., Fulton,R., Latreille,P., Kim,K., Wilson,R.K. and
+            Gordon,J.I.
+  TITLE     Genomic and metabolic adaptations of Methanobrevibacter smithii to
+            the human gut
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 104 (25), 10643-10648 (2007)
+   PUBMED   17563350
+REFERENCE   2  (bases 1 to 1853160)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUN-2007) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1853160)
+  AUTHORS   Samuel,B.S., Hansen,E.E., Manchester,J.K., Coutinho,P.M.,
+            Henrissat,B., Fulton,R., Latreille,P., Kim,K., Wilson,R.K. and
+            Gordon,J.I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-APR-2007) Center for Genome Sciences, Washington
+            University, 4444 Forest Park, Saint Louis, MO 63108, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from CP000678.
+            Available from the ATCC.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1853160
+                     /organism="Methanobrevibacter smithii ATCC 35061"
+                     /mol_type="genomic DNA"
+                     /strain="ATCC 35061; PS; DSMZ 861"
+                     /db_xref="ATCC:35061"
+                     /db_xref="taxon:420247"
+                     /note="type strain of Methanobrevibacter smithii"
+CONTIG      join(CP000678.1:1..1853160)
+//
+

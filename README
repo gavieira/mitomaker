@@ -1,0 +1,46 @@
+	   mitoMaker 1.0
+
+            `-://///:-`            
+        ./oyhysooooosyhys/.        
+     `/oys+/-----------/osys:`     
+    :yho:-----------------:oyy:    
+  `oys:------------+yyhhys+::syo   
+  sys-------------shddddddddo-sho  
+ /yh----:://+++++ohhdddddhddd:-hh: 
+ yso-+syhdhdddhddhddddddhydddo-oys 
+ ys/yhdddddddddddddddddddyddd+-/yh 
+ yooodddddddhddhhdddhdddddddh--oys 
+ :sy-+ydddddddddddddddddddhs:--hh- 
+  ohs--:+syyhhdddddhhhys+/----sho  
+  `ohy:------:::::::--------:sy+   
+    :yyo:-----------------:oys-    
+     `:shyo/-----------/+sho:`     
+        ./oyhhyooooosyhso/`        
+            `.::///:-.`            
+
+
+INSTALL:
+Open the INSTALL file for installation and working instructions.
+
+DESCRIPTION:
+mitoMaker is a pipeline script developed to simplify the assembly and automatic annotation of mitochondrial genomes, based on raw NGS reads and an optional target reference.
+
+mitoMaker calls well known assemblers and algorithms, such as SOAPdenovo, MIRA and blast+ and parses their results providing easily readable outputs, such as FASTA, GENBANK, SEQUIN, PNG and others.
+
+General pipeline:
+1-iterative De Novo assembly, with different k-mer values, trying to assemble a build that matches a target mitochondrial genome given.
+2-searches for all mitochondrial gene features and circularization.
+3-stores the best result found.
+4-uses the best assembly as backbone for a reference based assembly, using MIRA and MITObim, trying to extend the mitogenome and close gaps.
+5-annotates the best assembly, identifying the start and end position of each and every feature.
+6-creates a folder with all the results (PNG, GENBANK, FASTA, SEQUIN, CAF, MAF and a stats logfile).
+
+IMPORTANT NOTICES:
+Remember to change the folders of your main programs in the config file, if required.
+
+Main subprograms are provided, but should you encounter errors, install them independantly (links are provided in the manual),
+and change the folders in the config file.
+
+Read the manual before starting to use this script for information on installing the required programs and libraries.
+
+Test the program by running test.py, which is located in the main script's folder.

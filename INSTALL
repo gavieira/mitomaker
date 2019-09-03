@@ -1,0 +1,49 @@
+Thanks for using mitoMaker!
+
+* Default: your version of mitoMaker should already be installed.
+
+
+1.TESTING THE SCRIPT
+====================
+
+Open the terminal and enter mitoMaker's folder. 
+Now run test.py 
+$> ./test.py 
+OR
+$> python test.py
+
+INFO: test.py will try to assemble a known mitochondria with SOAPdenovo-Trans and with MIRA. This will test all
+provided features.
+
+If you get an error message, check it to see which program failed and open mitoMaker_manual.pdf for instructions 
+on installing each program to your environment.
+
+
+2. RUNNING THE SCRIPT
+=====================
+
+Example of a simple command line to run Mitomaker:
+./mitoMaker.py -i input.data -j mtDNA -p 8 -r genbank_reference.gb
+
+Example of a simple input.data file to run mitoMaker with SOAPdenovo-Trans:
+
+$> more input.data
+max_rd_len=100
+
+[LIB]
+rank=1
+asm_flag=3
+q=/YOUR_JOB_FOLDER/test.fastq
+$>
+
+* Execute ./mitoMaker.py --help for more info, or read the complete manual supplied in the main folder.
+
+
+3. FURTHER INFORMATION
+======================
+
+All required programs and libraries are pre-compiled for a LINUX environment. It was tested in UBUNTU 11.04,
+11.10, 12.04, 12.10, 13.10, and 14.04. It was also tested in a SUSE Linux environment.
+
+In the case you encounter problems running mitoMaker or one of the pre-compiled programs, open the manual file
+for instructions on compiling each program.
